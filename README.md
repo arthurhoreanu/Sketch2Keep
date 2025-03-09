@@ -1,17 +1,18 @@
-# Rock-Paper-Scissors Game
+# Sketch2Keep
 
-Rock-Paper-Scissors is a simple Python-based command-line game where you can play Rock-Paper-Scissors against the computer.
+Sketch2Keep is a Python-based project that allows users to create and draw custom symbols using the Turtle graphics library. Users can define new symbols by specifying a series of turtle movements and then draw these symbols by inputting their names.
 
 ## Features
 
-- **Play Against the Computer**: Choose between Rock, Paper, or Scissors and see if you can beat the computer.
-- **ASCII Art Illustrations**: Enjoy fun ASCII art illustrations for each choice.
-- **Score Tracking**: Keep track of scores over multiple rounds.
+- **Define Symbols**: Create custom symbols by specifying turtle movements.
+- **Draw Symbols**: Draw predefined symbols by entering their names.
+- **Persistent Storage**: Symbols are stored in a text file for future use.
 
 ## File Structure
 
-- `main.py`: Entry point of the game.
-- `illustrations/illustrations.py`: Contains ASCII art illustrations for the game.
-- `illustrations/rock.txt`: ASCII art for Rock.
-- `illustrations/scissors.txt`: ASCII art for Scissors.
-- `illustrations/paper.txt`: ASCII art for Paper.
+- `main.py`: Entry point of the application.
+- `add_symbol.py`: Contains functionality to define new symbols.
+- `draw_symbols.py`: Contains functionality to draw symbols.
+- `symbols_dict.py`: Handles reading and writing symbols to a file.
+- `turtle_move.py`: Defines turtle movement functions.
+- `symbols.txt`: Stores the symbols and their corresponding instructions.
